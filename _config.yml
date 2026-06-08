@@ -1,9 +1,9 @@
 # Site settings
 title: Sally Gillbanks
-email: sallygillbanks@gmail.com.com
+email: sallygillbanks@gmail.com
 url: https://github.com/fruzum
-description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
-keywords: "your keywords, separated by commas"
+description: "Game Developer | Unity & Unreal Engine | C# and C++. Sally Gillbanks's portfolio showcasing games and interactive projects built with Unity, Unreal Engine, C#, C++, and Unreal Blueprints. Explore my work in game development."
+keywords: "Unreal, Unity, Programmer, Blueprints"
 skills: "Unity Engine, Unreal Engine"
 meta_author: Gillbanks Sally
 
@@ -33,7 +33,7 @@ color:
 # Footer settings
 footer:
   copyright: Sally Gillbanks
-  location: Wellington, New Zealand
+  location: Location
   social: Around the web
   credits: Credits
 
@@ -47,6 +47,8 @@ social:
 #    url: http://stackoverflow.com/questions/tagged/jekyll
 #  - title: bitbucket
 #    url: http://bitbucket.org/fruzum
+  - title: linkedin
+    url: https://www.linkedin.com/in/sally-gillbanks/
   - title: github
     url: http://github.com/fruzum
   - title: itch
