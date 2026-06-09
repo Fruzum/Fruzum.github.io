@@ -495,3 +495,7 @@ footer .footer-below {
     color: #{{ site.color.primary }};
     background: #fff;
 }
+
+.img-responsive {
+    height: 300px;
+}
