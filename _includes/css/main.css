@@ -487,6 +487,6 @@ footer .footer-below {
     width: 20px;
     height: 20px;
     object-fit: contain;
-    margin-top: -3px;  /* Adjust this value to move up/down */
+    margin-top: -20px;  /* Adjust this value to move up/down */
     vertical-align: middle;
 }
