@@ -489,13 +489,13 @@ footer .footer-below {
     transition: filter 0.3s ease;
 }
 
-.img.social-icon:hover,
-.img.social-icon:focus,
-.img.social-icon:active,
-.img.social-icon.active { {
-    filter: brightness(0) invert(1) hue-rotate(45deg) saturate(1.5);
+.social-icon:hover,
+.social-icon:focus,
+.social-icon:active,
+.social-icon.active {
+    filter: brightness(0) invert(1) drop-shadow(0 0 8px #FFB700);
 }
 
-.img-responsive {
+.profile-picture {
     height: 300px;
 }
