@@ -482,3 +482,9 @@ footer .footer-below {
     transform: translateZ(0);
     -webkit-transform: translateZ(0);
 }
+
+.btn-social img.social-icon {
+    width: 20px;
+    height: 20px;
+    object-fit: contain;
+}
