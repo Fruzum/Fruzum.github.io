@@ -493,7 +493,7 @@ footer .footer-below {
 .social-icon:focus,
 .social-icon:active,
 .social-icon.active {
-    filter: brightness(0) invert(1) drop-shadow(0 0 8px #FFB700);
+    filter: brightness(0) invert(1) drop-shadow(0 0 8px #{{ site.color.secondary }});
 }
 
 .profile-picture {
