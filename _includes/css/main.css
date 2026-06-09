@@ -485,15 +485,15 @@ footer .footer-below {
 
 .social-icon {
     margin-top: -5px;
+    filter: brightness(0) invert(1);
+    transition: filter 0.3s ease;
 }
 
 .img.social-icon:hover,
 .img.social-icon:focus,
 .img.social-icon:active,
 .img.social-icon.active { {
-    border: solid 2px #fff;
-    color: #{{ site.color.primary }};
-    background: #fff;
+    filter: brightness(0) invert(1) hue-rotate(45deg) saturate(1.5);
 }
 
 .img-responsive {
