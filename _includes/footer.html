@@ -16,8 +16,13 @@
           <ul class="list-inline">
             {% for network in site.social %}
             <li>
-              <a href="{{ network.url }}" class="btn-social btn-outline"><i
-                  class="fa-brands fa-fw fa-{{ network.title }}"></i></a>
+              <a href="{{ network.url }}" class="btn-social btn-outline">
+                {% if network.icon %}
+                  <img src="/img/{{ network.icon }}" alt="{{ network.title }}" class="social-icon">
+                {% else %}
+                  <i class="fa-brands fa-fw fa-{{ network.title }}"></i>
+                {% endif %}
+              </a>
             </li>
             {% endfor %}
           </ul>

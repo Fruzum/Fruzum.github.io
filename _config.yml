@@ -51,6 +51,7 @@ social:
     url: http://github.com/fruzum
   - title: itch
     url: https://fruzum.itch.io/
+    icon: itch-io.png
 
 # Postal address (add as many lines as necessary)
 address:
