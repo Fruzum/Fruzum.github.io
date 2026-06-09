@@ -18,7 +18,7 @@
             <li>
               <a href="{{ network.url }}" class="btn-social btn-outline">
                 {% if network.icon %}
-                  <img src="/img/{{ network.icon }}" alt="{{ network.title }}" class="social-icon">
+                  <img src="/img/{{ network.icon }}" alt="{{ network.title }}" class="fa-brands fa-fw fa-{{ network.title }}">
                 {% else %}
                   <i class="fa-brands fa-fw fa-{{ network.title }}"></i>
                 {% endif %}
