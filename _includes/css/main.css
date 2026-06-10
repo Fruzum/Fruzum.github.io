@@ -485,7 +485,7 @@ footer .footer-below {
 
 .social-icon {
     margin-top: -5px;
-    filter: brightness(0) invert(1);
+    filter: brightness(0) invert(1) sepia(1) saturate(1000%) hue-rotate(0deg);
     transition: filter 0.3s ease;
 }
 
@@ -493,7 +493,7 @@ footer .footer-below {
 .social-icon:focus,
 .social-icon:active,
 .social-icon.active {
-    filter: brightness(0) invert(1) drop-shadow(0 0 8px #{{ site.color.secondary }});
+    color: #{{ site.color.secondary }};
 }
 
 .profile-picture {
