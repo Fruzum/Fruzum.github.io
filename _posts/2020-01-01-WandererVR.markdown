@@ -2,7 +2,7 @@
 layout: default
 modal-id: 1
 date: 2026-06-16
-img: GoldenLeafAdventures.png
+img: WandererVR.png
 alt: image-alt
 project-date: October 2019
 client: Wanderer

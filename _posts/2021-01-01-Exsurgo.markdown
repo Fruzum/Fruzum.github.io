@@ -2,10 +2,10 @@
 layout: default
 modal-id: 1
 date: 2026-06-16
-img: WandererVR.png
+img: SpaceGame_Exsurgo.png
 alt: image-alt
-project-date: October 2019
-client: Wanderer
-category: Juniour VR Developer
-description: This was the first project I worked on outside after finishing my University course. While working here, I worked on a variety of tasks. From creating an AI system that allowed NPC's to travel to designated areas and perform desired actions, to creating the first iteration of the VR drumkit, to prototyping levels so that we could test the gameplay and level design before fully creating and implementing the level to confirm the design is perfect, catching all the inconsistancies and getting a good feel of the level before the final design was implemented.  
+project-date: November 2020
+client: Exsurgo
+category: Unreal/Unity Developer
+description: I worked at Exsurgo for multiple years. It is where I learned how to communicate effectly with clients and help them bring their visions to life. I create mutliple different minigames to be used with their EEG Neurofeedback headset. I also updated the minigames that were previously present within the appso that they suited the updated requirements for the minigame. 
 ---
