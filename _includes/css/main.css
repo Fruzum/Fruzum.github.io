@@ -485,7 +485,7 @@ footer .footer-below {
 
 .social-icon {
     margin-top: -5px;
-    filter: brightness(0) invert(1) sepia(1) saturate(1000%) hue-rotate(0deg);
+    filter: brightness(0) invert(1) sepia(1) saturate(1000%) hue-rotate(180deg);
     transition: filter 0.3s ease;
 }
 
