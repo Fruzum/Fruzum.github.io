@@ -1,0 +1,18 @@
+TITLE: Kiwi Game Jam 2025
+DATE_LABEL: Jul 2025
+BLURB: First project in Godot — new engine, small team, 48 hours.
+LINK_TEXT: Play on itch.io
+LINK_URL: https://fruzum.itch.io/monsterville
+MEDIA_URL: assets/MonsterVille.png
+MEDIA_ALT: An image of the title screen
+===POPUP===
+{{image: assets/MonsterVille.png | An image of the title screen}}
+Another game Jam with Godot. Worked well in the team dispite not being too familiar with the engine.
+
+## Why it mattered
+
+- First hands-on project using Godot
+- Small team, tight timeline - no room to slow down and read docs
+- Came out the other side with a working, playable build
+
+[Play it on itch.io](https://fruzum.itch.io/monsterville)

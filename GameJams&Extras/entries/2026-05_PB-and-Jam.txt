@@ -1,0 +1,21 @@
+TITLE: PB and Jam 2026
+DATE_LABEL: May 2026
+BLURB: Small-team jam - the most-watched game once spectating opened up after judging.
+LINK_TEXT: Play on itch.io
+LINK_URL: https://fruzum.itch.io/skip-the-squid
+MEDIA_URL: assets/SkipTheSquid.png
+MEDIA_ALT: An image of the game's title screen
+===POPUP===
+{{image: assets/SkipTheSquid.png | An image of the game's title screen}}
+{{image: assets/SkipTheSquidGameScene.png | An image of the gameplay}}
+A small-team entry that ended up drawing a crowd once the event opened
+spectating after judging closed - the most-watched game in the room at
+that point in the night.
+
+## Highlights
+
+- Small, focused team - everyone's work was visible in the final build
+- Held up well under a live audience, not just solo playtesting
+- Shipped and playable directly in the browser
+
+[Play it on itch.io](https://fruzum.itch.io/skip-the-squid)

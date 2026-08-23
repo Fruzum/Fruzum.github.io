@@ -1,0 +1,18 @@
+TITLE: Global Game Jam 2025
+DATE_LABEL: Jan 2025
+BLURB: Team project built within the standard 48-hour window.
+LINK_TEXT: View entry
+LINK_URL: https://chuangsing-kee.itch.io/bubble-hustle
+MEDIA_URL: assets/BubbleHussleTitle.png
+MEDIA_ALT: An image of Bubble Hustle's icon
+===POPUP===
+{{image: assets/BubbleHussleTitle.png | An image of Bubble Hustle's icon}}
+{{image: assets/BubbleHustleInGame.png | An image of in game}}
+Worked with a big team of friends to create a game.
+
+## Notes
+
+- Full team collaboration from concept through submission
+- Shipped and playable within the 48-hour deadline
+
+[View the entry](https://chuangsing-kee.itch.io/bubble-hustle)

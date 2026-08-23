@@ -1,0 +1,10 @@
+TITLE: SpyderBot
+GIF_URL: assets/WallCrawlLoop.gif
+GIF_ALT: Gif of the Spyderbot walking forwards around the inside of a box
+
+===POPUP===
+A wall walking creature that I made as one of the gameplay mechanics that I thought would be interesting to create.
+
+It can walk on any surface and has a smooth transition when moving between the walls.
+
+It has been through multiple iterations and I will improve it more if I feel like it needs it.

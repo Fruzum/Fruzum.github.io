@@ -1,0 +1,20 @@
+TITLE: Global Game Jam 2026
+DATE_LABEL: Jan 2026
+BLURB: Led a small team of programmers to build a three-level game.
+LINK_TEXT: View entry
+LINK_URL: https://globalgamejam.org/games/2026/perspective-6
+===POPUP===
+Took the lead role across a small team of programmers for this year's
+Global Game Jam, scoping and delivering a three-level game inside the
+standard 48-hour window.
+
+## What this involved
+
+- Leading a small programming team through scope, build, and playtest
+- Structuring the game around three distinct levels rather than one
+  extended loop
+- Keeping the team on schedule against the hard 48-hour deadline
+- First time having no artists, so had to find assets via the store
+- Fixing the merge conflicts that occured
+
+[View the entry on globalgamejam.org](https://globalgamejam.org/games/2026/perspective-6)

@@ -1,0 +1,23 @@
+TITLE: Kiwi Game Jam 2026
+DATE_LABEL: Jul 2026
+BLURB: Developed a complete game jam solo in 48 hours
+LINK_TEXT: Play on itch.io
+LINK_URL: https://fruzum.itch.io/quantum
+MEDIA_URL: assets/QuantiumIcon.png
+MEDIA_ALT: An image of the game's title screen
+===POPUP===
+{{gif: assets/RoomLoop.gif | A gif of one of the quantium endless rooms}}
+{{gif: assets/MovingRock.gif | A gif of a quantium teleporting rock}}
+Built entirely solo over a single weekend, from first prototype to a
+polished build with a working main menu and pause screen — not just a
+playable loop, but something that felt like a finished, shippable game
+jam entry.
+
+## What went into it
+
+- Full game loop designed and implemented solo, start to finish
+- Main menu and pause screen, often the first things cut under jam
+  time pressure
+- Playtested and patched right up to the submission deadline
+
+[Play it on itch.io](https://fruzum.itch.io/quantum)

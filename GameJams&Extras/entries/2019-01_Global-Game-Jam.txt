@@ -1,0 +1,21 @@
+TITLE: Global Game Jam 2019
+DATE_LABEL: Jan 2019
+BLURB: My first game jam ever.
+LINK_TEXT: View entry on itch
+LINK_URL: https://itch.io/queue/c/619944/games-i-have-helped-develop?game_id=361251&password=
+MEDIA_URL: assets/HouseOfLegs.png
+MEDIA_ALT: An image of my first game jams title screen
+===POPUP===
+{{image: assets/HouseOfLegs.png | An image of my first game jams title screen}}
+My very first game jam
+
+Teamed up with a group of strangers and made a full game within 48 hours for the first time.
+
+I had been doing game development at Media Design School at this time, so thought it'd be interesting and exciting to try an official game jam not related to University at all.
+
+## Notes
+
+- First-ever game jam, and first time working with a team formed on the spot
+- Shipped a complete, playable entry within 48 hours
+
+[View the entry on itch.io](https://itch.io/queue/c/619944/games-i-have-helped-develop?game_id=361251&password=)

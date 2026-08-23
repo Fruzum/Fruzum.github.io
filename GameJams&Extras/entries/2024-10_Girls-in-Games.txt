@@ -1,0 +1,14 @@
+TITLE: Girls in Games
+DATE_LABEL: October 2023
+BLURB: Ran a two-hour Unreal Engine workshop teaching students engine basics, Blueprints, and level placement.
+MEDIA_URL: assets/2024_GirlsinGames.png
+MEDIA_ALT: The art for this years girls in games 
+===POPUP===
+{{image: assets/2024_GirlsinGames.png | The art for this years girls in games }}
+Lead a 2 hour session for women in year 13 of school. To show them the wonders of game development and show of programming as a skill women can do.
+
+## What the workshop covered
+
+- Unreal Engine basics
+- An introduction to Blueprints for students with no coding background
+- In this session we created a moving plaform the players could jump on to get to a goal

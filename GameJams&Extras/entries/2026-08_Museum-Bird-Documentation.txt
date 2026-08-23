@@ -1,0 +1,18 @@
+TITLE: Museum Bird Documentation - Volunteer
+DATE_LABEL: Aug 2026
+BLURB: Cataloguing banded bird skins and bones in a museum collection, recording band and museum numbers to support future research.
+===POPUP===
+Volunteer work cataloguing the museum's bird collection - a change of
+pace from game development, but the same underlying instinct: careful,
+methodical documentation that makes future work easier for someone else.
+
+## What the work involves
+
+- Examining bird skins (taxidermy) and bird bones held in the museum's
+  collection
+- Checking each specimen for a leg band
+- Recording the band number alongside the museum's own catalogue number
+
+This creates a record of which birds in the collection are banded,
+so future researchers know exactly what's available to study without
+having to re-examine the whole collection themselves.

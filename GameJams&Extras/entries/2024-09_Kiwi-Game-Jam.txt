@@ -1,0 +1,18 @@
+TITLE: Kiwi Game Jam 2024
+DATE_LABEL: Sep 2024
+BLURB: Sole programmer on the team for this event.
+LINK_TEXT: Play on itch.io
+LINK_URL: https://blendyboy.itch.io/human-go-home
+MEDIA_URL: assets/HumanGoHome.png
+MEDIA_ALT: An image of Human Go Home
+===POPUP===
+{{image: assets/HumanGoHome.png | An image of human go home}}
+Took on the sole programmer role for the team at this event - every system in the final build came through one pair of hands under jam time pressure.
+
+## Notes
+
+- Sole programmer across the whole build
+- Coordinated closely with non-programming teammates on scope
+- Shipped and playable by the deadline
+
+[Play it on itch.io](https://blendyboy.itch.io/human-go-home)

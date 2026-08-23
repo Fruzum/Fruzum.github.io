@@ -1,0 +1,12 @@
+TITLE: Forest Walk
+GIF_URL: assets/TheFinalWalk.gif
+GIF_ALT: Gif of the current progress
+
+===POPUP===
+A game about walking through real world forests.
+
+I have taking real world satellite data to get the height map of Wellington. Then I used map data to get the actual real world walking track data. I have combined these and am in the process of putting a path along the route so that the player can walk without being able to stray too far from the real world path.
+
+I need to shape the landscape more. I need to place trees and bushes. I would also like to add birds and insects.
+
+It is progressing well and I am enjoying creating it.

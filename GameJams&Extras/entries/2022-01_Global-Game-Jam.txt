@@ -1,0 +1,20 @@
+TITLE: Global Game Jam 2022
+DATE_LABEL: Jan 2022
+BLURB: Designed and built most of the levels for a two-person team; first time using Godot.
+LINK_TEXT: View entry
+LINK_URL: https://itch.io/queue/c/619944/games-i-have-helped-develop?game_id=4833863&password=
+MEDIA_URL: assets/HarmonyImage.png
+MEDIA_ALT: An image of the games title screen
+===POPUP===
+{{image: assets/HarmonyImage.png | An image of the games title screen}}
+A two-person team entry, and the very first time picking up Godot —
+learning a new engine and carrying most of the level design in the same
+48 hours.
+
+## Notes
+
+- Two-person team, so a wider spread of responsibility per person
+- First-ever project in Godot
+- Designed and built the majority of the game's levels
+
+[View the entry on itch.io](https://itch.io/queue/c/619944/games-i-have-helped-develop?game_id=4833863&password=)

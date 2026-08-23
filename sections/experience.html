@@ -1,0 +1,148 @@
+<section id="experience">
+  <div class="wrap">
+    <div class="section-head"><h2>Experience</h2><div class="section-divider"><span class="line"></span><span class="hex"></span><span class="line"></span></div></div>
+    <div class="timeline">
+
+      <div class="tl-item current">
+        <div class="tl-hex live"></div>
+        <div class="tl-role">Current<span class="tl-live-dot" aria-hidden="true"></span></div>
+        <div class="tl-meta">OPEN TO WORK · Since Dec 2025</div>
+        <ul>
+          <li>Participated in multiple different Game Jams.</li>
+          <li>Creating a Bush Walk simulator.</li>
+          <li>Creating a Painting by Numbers style game.</li>
+          <li>Expanding upon my favourite games created during Game Jams.</li>
+        </ul>
+        <button class="detail-btn" data-job="current">View full breakdown &rarr;</button>
+        <template data-job="current" data-title="Between Contracts" data-meta="Open to work &middot; Since Dec 2025">
+          <p>Currently between contracts - using the gap to work on personal projects, sharpen new tools, and stay hands-on rather than waiting around.</p>
+          <h4>What this looks like right now</h4>
+          <ul>
+            <li>Participated in multiple different Game Jams. Where I have improved my collaboration skills with a diverse group of developers.</li>
+            <li>I have been prototyping two different game ideas in Unreal Engine to explore new gameplay concepts and to see if they will work.</li>
+            <li>I have created a Painting by Numbers inspired game in Unity.</li>
+            <li>I have been doing lots of online coding challenges to expand my skills and keep them sharp.</li>
+            <li>I have added more little gameplay mechanics to my personal projects, inspired from other games.</li>
+          </ul>
+          <p>Reach out to me via the contact form at the bottom of this page, or through <a href="https://www.linkedin.com/in/sally-gillbanks/" target="_blank" rel="noopener">LinkedIn</a>.</p>
+        </template>
+      </div>
+
+      <div class="tl-item">
+        <div class="tl-hex"></div>
+        <div class="tl-role">Incandescene Games - Game Developer</div>
+        <div class="tl-meta">JAN 2025 - JAN 2026 · PlanetSmith</div>
+        <ul>
+          <li>Designed and implemented AI behaviour and a custom A* pathfinding system for a voxel hex-grid planet, using Unity ECS, Jobs, and Burst for performance.</li>
+          <li>Crafted core survival mechanics: health, hunger, crafting, cooking, and a projectile-based combat system.</li>
+          <li>Enhanced custom Unity editor tools (block creation, structure creation, planet generation) to speed up modding and art pipelines.</li>
+          <li>Contributed to a Kickstarter that closed at over 13.5x its baseline funding goal.</li>
+        </ul>
+        <button class="detail-btn" data-job="incandescent">View full breakdown &rarr;</button>
+        <template data-job="incandescent" data-title="Incandescent Games" data-meta="JAN 2025 — JAN 2026 &middot; PlanetSmith">
+          <h4>The project</h4>
+          <p>PlanetSmith is a first-person survival game set on a voxel-based, hex-grid spherical planet, with space travel between worlds. My work here spanned AI, tooling, animation implementation, and core survival systems.</p>
+          <h4>AI &amp; pathfinding</h4>
+          <ul>
+            <li>Designed and implemented the A* navigation using Unity ECS and Jobs, with Burst compilation for performance. This is so that the AI can navigate efficiently across the hex-grid world. Due to the world being spherical and the world being generated at runtime, we could not use Unity's default pathfinding system. So using ECS and Jobs allowed me to create a performant solution.</li>
+            <li>Designed and implemented AI behaviour using Unity ECS and Jobs, with Burst compilation for performance. I created a custom built state machine for AI decision-making that would allow for dyanmic and responsive AI that acted differently depending on it's base type and the environment around it.</li>
+            <li>Using all the AI systems, I implemented a scorpion boss mob to test players' mastery of the combat system.</li>
+          </ul>
+          <h4>Custom Unity editor tools</h4>
+          <ul>
+            <li>Updated the block creator to simplify creating new blocks for future development. I also changed how blocks were saved so that they each had their own file instead of being stored in a single file; Which will create fewer merge conflicts in the future.</li>
+            <li>Enhanced the structure editor with a custom raycast-based collision system for precise placement within hex-grid blocks. I also implemented tools to manipulate block type, position, rotation, and shape so that future development is streamlined.</li>
+            <li>Updated the planet-generation tool letting developers define biomes, block layers for the ground, the spawn chances of blocks, and the spawnable structures that can exist in this biome; so procedural worlds have a structure behind their block spawning instead of being random.</li>
+          </ul>
+          <h4>Gameplay &amp; UI</h4>
+          <ul>
+            <li>Crafted core survival mechanics: health, hunger, crafting, and cooking.</li>
+            <li>Built a basic combat system with damage, knockback, and projectiles. I also made the damage adaptive depending on the weapon and target.</li>
+            <li>Updated and created new UI screens, including a cooking minigame, some gameplay UI, and the alpha version of the crafting UI.</li>
+            <li>Worked with the artist to bring AI and player animations to life.</li>
+          </ul>
+          <p>These systems underpinned the game's Kickstarter, which closed at over 13.5x its baseline funding goal. <a href="https://www.incandescentgames.net/" target="_blank" rel="noopener">incandescentgames.net</a></p>
+        </template>
+      </div>
+
+      <div class="tl-item">
+        <div class="tl-hex"></div>
+        <div class="tl-role">Exsurgo - Game Developer</div>
+        <div class="tl-meta">NOV 2020 - DEC 2024 · Axon &amp; Phoenix</div>
+        <ul>
+          <li>Designed and implemented multiple minigames for the Axon chronic-pain app under strict medical guidelines.</li>
+          <li>Led a full UI rework across uGUI and UI Toolkit, fixing scaling issues across screen sizes, and making future development more manageable.</li>
+          <li>Set up devices for a 116-person chronic pain clinical trial; most patients reported reduced pain.</li>
+          <li>Expanded the Unreal-based Phoenix suite of stroke-rehabilitation minigames.</li>
+        </ul>
+        <button class="detail-btn" data-job="exsurgo">View full breakdown &rarr;</button>
+        <template data-job="exsurgo" data-title="Exsurgo — Game Developer" data-meta="NOV 2020 — DEC 2024 &middot; Axon (Unity) &amp; Phoenix (Unreal)">
+          <h4>Axon app - chronic pain device</h4>
+          <p>Axon connects to Exsurgo's custom EEG neurofeedback headset, treating chronic pain. I designed, prototyped and developed new minigames under strict clinical guidelines to protect patient safety and treatment effectiveness. The games worked by reading the user's EEG signals and then rewarding them for achieving certain meditative states.</p>
+          <p><a href="https://www.frontiersin.org/journals/pain-research/articles/10.3389/fpain.2025.1479914/full" target="_blank" rel="noopener">Read the published trial results here</a>.</p>
+          <ul>
+            <li>Created multiple new minigames, with four that made the final game:
+              <ul>
+                <li>A paint-by-numbers game where the painting gradually fills in and resolves into a real-world nature photo. Nothing changes when the user is not being rewarded. When the user is rewarded, the painting gradually fills in.</li>
+                <li>The smiley face game where a face bounces around the screen with a different particle effect and background colour. When the user is not being rewarded, the face gradually turns into a neutral expression, shrinks, goes white, and less particles appear in the background. When the user is being rewarded, the face starts to smile, move faster, grow, turns green, and mroe particles spawn on the background</li>
+                <li>The diving game was where users were in a submarine traveling through an underwater environment. When the user is not being rewarded, the submarine moves slowly. When the user is being rewarded, the submarine moves faster, fish swim across the screen, environmental fish change colours, and the submarine released bubbles from its jets.</li>
+                <li>The space flight game was a game where patients had to pilot a spaceship through an asteroid field, avoiding collisions and collecting power-ups. This game was designed to help patients improve their spatial awareness and problem-solving skills.</li>
+              </ul>
+            </li>
+            <li>Created two additional minigames for the ADHD trial.
+              <ul>
+                <li>The first a bike racing game, where the user had to navigate a bike through a tunnel while avoiding obstacles. The bike'd speed increased when the user was being rewarded.</li>
+                <li>The second was a block smash style game, where the user had to spin the pole in the middle to line the ball up with the breakable blocks that they'd smash through when being rewarded.</li>
+              </ul>
+            </li>
+            <li>Reworked the app's UI end to end using both Unity uGUI and UI Toolkit, rebuilding it to adapt cleanly across screen sizes and resolutions. I also organised the codebase for better maintainability.</li>
+            <li>Built some questionnaire forms for users with UI Toolkit.</li>
+            <li>Set up and uploaded the Axon app onto tablets for a 116-person chronic pain trial. Making sure the headsets were clean, the tablets had the correct version of the app installed, and then cleaning them to be used by the next trial participant. A majority of trial patients reported reduced pain.</li>
+          </ul>
+          <video controls preload="metadata" playsinline><source src="assets/video/painting-game.mp4" type="video/mp4">Your browser doesn't support embedded video.</video>
+          <p class="modal-media-caption">The paint-by-numbers minigame; The most popular minigame I created for Axon's Chronic Pain trial.</p>
+          <h4>Phoenix suite — stroke rehabilitation (Unreal)</h4>
+          <ul>
+            <li>Upgraded and refined existing minigames and expanded the Phoenix suite with additional therapeutic games for stroke recovery patients.</li>
+            <li>Implemented a baseline stability tester on Exsurgo's in-house stroke rehab controller, to assess patients' arm stability.</li>
+            <li>Built a cooking minigame where patients followed specific arm movements to prepare a virtual meal.</li>
+            <li>Later transitioned to documenting the Phoenix app as the team wound down that project.</li>
+          </ul>
+          <p>Working at a medical device company meant adapting to strict guidelines and collaborating with non-game-developer stakeholders to bring their vision to life - while helping improve the lives of chronic pain and stroke recovery patients.</p>
+        </template>
+      </div>
+
+      <div class="tl-item">
+        <div class="tl-hex"></div>
+        <div class="tl-role">Wanderer - Junior VR Developer</div>
+        <div class="tl-meta">NOV 2019 - NOV 2020</div>
+        <ul>
+          <li>Designed an AI system for NPCs to navigate, idle, and respond contextually to player actions.</li>
+          <li>Built multiple gameplay mechanics</li>
+          <li>Prototyped levels to test mechanics and story beats before full production began on the level.</li>
+        </ul>
+        <button class="detail-btn" data-job="wanderer">View full breakdown &rarr;</button>
+        <template data-job="wanderer" data-title="Wanderer — Junior VR Developer" data-meta="NOV 2019 — NOV 2020">
+          <p>At Wanderer (a time-travel VR game, later renamed Mighty Eyes), I worked across AI systems, prototyping, gameplay mechanics and bug fixing.</p>
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/m0C5izR0wuo?si=6zsA0_GcF0ZQcj8H" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+          <p class="modal-media-caption">The trailer for the game.</p>
+          <h4>AI</h4>
+          <ul>
+            <li>Designed a node-based AI system so NPCs could walk to designated locations, perform its required interactions, idles, or respondes to player actions.</li>
+          </ul>
+          <h4>Gameplay mechanics</h4>
+          <ul>
+            <li>Built an umbrella, fire torch and waterfall puzzle: normally a torch carried under the waterfall goes out, but holding the umbrella above it blocks the water and keeps the flame lit.</li>
+            <li>Created a rhythm-based drum kit minigame for one of the game's main events.</li>
+            <li>Created multiple more gameplay mechanics.</li>
+          </ul>
+          <h4>Prototyping</h4>
+          <ul>
+            <li>Quickly prototyped mechanics, storyline beats and dialogue for leads to test, enabling a fail-fast approach that cut development time before things were locked in for full production.</li>
+          </ul>
+        </template>
+      </div>
+
+    </div>
+  </div>
+</section>

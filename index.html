@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sally Gillbanks</title>
+<meta name="description" content="Software Engineer and Game Developer in Wellington, New Zealand. Unity and Unreal experience across PlanetSmith, Axon, and Wanderer.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@400;500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/style.css">
+<link rel="icon" type="image/png" sizes="32x32" href="assets/icons/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="assets/icons/favicon-16x16.png">
+<link rel="icon" type="image/x-icon" href="assets/icons/favicon.ico">
+<link rel="apple-touch-icon" sizes="180x180" href="assets/icons/favicon-180x180.png">
+</head>
+<body>
+
+<div class="page-aurora-field" id="aurora-field" aria-hidden="true"></div>
+<div class="page-ripple-field" id="ripple-field" aria-hidden="true"></div>
+
+<header>
+  <nav>
+    <a href="#top" class="logo">SALLY<span>.</span>GILLBANKS</a>
+    <button class="nav-toggle" id="nav-toggle" aria-label="Toggle menu" aria-expanded="false" aria-controls="nav-menu">
+      <span></span><span></span><span></span>
+    </button>
+    <ul id="nav-menu">
+      <li><a href="#creations">Previous</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#jams">Extra</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <div class="nav-backdrop" id="nav-backdrop"></div>
+  </nav>
+</header>
+
+<div id="top"></div>
+
+<!--
+  Each slot below is replaced at load time with the matching file from
+  /sections. To edit a section, edit its file — you never need to touch
+  this file or hunt through one giant page of markup.
+-->
+<div class="section-slot" data-src="sections/hero.html"></div>
+<div class="section-slot" data-src="sections/creations.html"></div>
+<div class="section-slot" data-src="sections/about.html"></div>
+<div class="section-slot" data-src="sections/skills.html"></div>
+<div class="section-slot" data-src="sections/experience.html"></div>
+<div class="section-slot" data-src="sections/jams.html"></div>
+<div class="section-slot" data-src="sections/education.html"></div>
+<div class="section-slot" data-src="sections/contact.html"></div>
+<div class="section-slot" data-src="sections/footer.html"></div>
+<div class="section-slot" data-src="sections/modal.html"></div>
+
+<script src="assets/js/experience.js"></script>
+<script src="assets/js/contact.js"></script>
+<script src="assets/js/jams.js"></script>
+<script src="assets/js/creations.js"></script>
+<script src="assets/js/hero-background.js"></script>
+<script src="assets/js/main.js"></script>
+</body>
+</html>

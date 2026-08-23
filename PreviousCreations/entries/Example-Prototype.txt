@@ -1,0 +1,66 @@
+TITLE: Example Prototype — Replace Me
+GIF_URL: assets/example-prototype.gif
+GIF_ALT: Placeholder animated hexagon, standing in for a real gameplay clip
+===POPUP===
+This is an example entry showing how the Previous Creations section
+works — swap this file out for a real project once you've got one ready.
+
+The gif above is just a generated placeholder (a spinning hexagon), not
+real gameplay footage. Replace `assets/example-prototype.gif` with an
+actual clip from one of your projects, point `GIF_URL` in this file at
+it, and update everything below.
+
+## How to replace this entry
+
+- Drop your real gif into `PreviousCreations/assets/`
+- Duplicate this file, rename it to something like `Your-Title.txt`
+- Update `TITLE`, `GIF_URL`, and this popup text
+- Add the new filename to `manifest.txt` — where you put it in that list
+  is where it'll appear on the page (top of the list = shown first)
+- Delete this example file (and remove it from the manifest) once you
+  don't need it as a reference anymore
+
+## Adding more media to a popup
+
+Every tag below works two ways: a full web address, or a path relative
+to this `PreviousCreations` folder (which the site resolves for you
+automatically — no need to write out the whole file path).
+
+Here's a link to a web page: {{link: https://fruzum.itch.io/ | my itch.io profile}}.
+
+And here's a link to a local file instead of a website: {{link: assets/example-image.png | open the example image directly}}.
+
+Images work the same way whether the source is a web address or a local
+file — this one points at a file sitting right in this folder rather
+than out on the web:
+
+{{image: assets/example-image.png | A generated placeholder badge graphic, standing in for a real screenshot}}
+
+And here's the same image tag pointed at a web address instead, using
+one of MDN's own public example images:
+
+{{image: https://interactive-examples.mdn.mozilla.net/media/cc0-images/grapefruit-slice-332-332.jpg | A grapefruit slice, a standard MDN example image, showing an image pulled from the web rather than a local file}}
+
+Gifs work identically to images — `gif` is just there so it's obvious
+at a glance what the file actually is:
+
+{{gif: assets/example-prototype.gif | The same placeholder hexagon gif, this time embedded inside the popup body rather than as the card's main gif}}
+
+Same deal for a web-hosted gif:
+
+{{gif: https://media.giphy.com/media/JIX9t2j0ZTN9S/giphy.gif | A gif pulled from Giphy, showing a gif loaded from the web rather than a local file}}
+
+And video works the same way too — first a locally generated example
+clip, not a real project:
+
+{{video: assets/example-video.mp4}}
+
+Then the same tag pointed at a web-hosted video instead, using one of
+Mozilla's own public example clips:
+
+{{video: https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.webm}}
+
+Mix and match as many of these as you need, in whatever order makes
+sense for the project — some entries might have none of these beyond
+the main gif, others might have several images and a video walking
+through different features.
