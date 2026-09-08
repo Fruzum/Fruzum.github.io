@@ -1,0 +1,16 @@
+TITLE: Hexagon Block Raycast
+GIF_URL: assets/HexagonRaycast.gif
+GIF_ALT: Gif of the hexagon block raycast in all its glory
+===POPUP===
+{{image: assets/HexagonRaycast.png | A screenshot of the raycast showing the raycast line and all the blocks that it connected with}}
+{{link: https://planetsmith.world/ | PLANETSMITH}}
+
+At PlanetSmith, I was tasked with updating the raycast within structure creator Unity Editor tool. This tool is a way for developers to create simple and complex structure that can spawn within the world
+
+Due to the blocks being Hexagon shaped, it meant that I could not just use the usual xyz blocks. Instead I had to create a raycast that could detect hexagon blocks and when it entered/exited a Hexagon block.
+
+The way this was accomplished was by splitting the raycast into a horizontal raycast and a vertical raycast to see when a new block was transitioned to. When the raycasts were complete, I combined them back together and gave back a list of all the intersecting blocks in the order that they were intersected.
+
+Using this website {{link: https://www.redblobgames.com/grids/hexagons/ | https://www.redblobgames.com/grids/hexagons/}} I was able to create the horizontal grid to detect when each intersection occurred within the hexagon blocks. I had to convert from world coordinates into the hexagon coordinates and see whether I was in a different block or not. Before converting that back into world coordinates to identify where the intersecting block is located.
+
+
