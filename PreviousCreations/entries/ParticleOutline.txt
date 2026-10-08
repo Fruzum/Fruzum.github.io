@@ -1,7 +1,6 @@
 TITLE: Particle Outline
 GIF_URL: assets/ParticleOutline.gif
-GIF_ALT: A gif showing the world going black and the objects that are visible get an outline 
+GIF_ALT: A gif showing objects and then the environment going black with the objects gaining an outline. The camera moves around and the objects only change the outline position when the player
 ===POPUP===
-{{gif: assets/ParticleOutline.gif | A gif showing objects and then the environment going black with the objects gaining an outline. The camera moves around and the objects only change the outline position when the player }}
 With the help of Claude, I designed, and developed a particle effect to be used in one of my personal projects. It takes a snapshot of what the camera sees and then creates a particle outline along all the edges that it sees. The player's camera then moves around and they see what they saw when they took a snapshot instead of it updating in real time. This means that the players can see 'through' walls if they walk around a corner after taking a snapshot. 
 The purpose of this particle effect is for a gameplay mechanic where the player closes their eyes and then it helps them visualize the world around them so that they can walk around without just hoping they are near enough to where they think they are.
